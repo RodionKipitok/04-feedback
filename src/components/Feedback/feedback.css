@@ -1,0 +1,82 @@
+#root{
+	position: relative;
+}
+
+.mainSection{
+
+ width: 500px;
+ height: 500px;
+ margin: 25px;
+ border: 1px solid black;
+ border-radius: 5px;
+ box-shadow: 0px 8px 24px -8px rgba(66, 68, 90, 1);
+ background-color: rgb(209, 208, 208);
+
+}
+
+.statisticsSection{
+   position: absolute;
+	top: 164px;
+	left:75px;
+	width: 400px;
+	height: 300px;
+	border-radius: 5px;
+	box-shadow: 0px 8px 24px -8px rgba(66, 68, 90, 1);
+	background-color:  rgb(209, 208, 208);
+}
+
+.titleFeedback{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+ 
+ 
+
+.widget__title{
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+.list__btn{
+ display: flex;
+ width: 255px;
+ justify-content: space-around;
+ margin: 40px auto;
+ list-style: none;
+}
+
+.btn{
+ width: 60px;
+ height: 30px;
+ font-size: 15px;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ background-color: rgb(55, 60, 69);
+ box-shadow: 0 5px 15px 0 rgb(57, 65, 70);
+ transition: 0.5s;
+
+
+}
+
+ .btn:hover{
+	transform: translate(0,-3px);
+	box-shadow: 0 20px 40px 0 rgb(91, 95, 101);
+ }
+
+.list__statistics{
+	
+	top: 173px;
+	left: 411px;
+	margin-top: 11px;
+   margin-left: 20px;
+	list-style: none;
+}
+
+.statistics__value{
+	color: rgb(39, 38, 38);
+
+}
+
+
